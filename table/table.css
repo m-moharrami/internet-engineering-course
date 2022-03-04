@@ -1,3 +1,28 @@
 table {
     font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    border: 3px solid #776b6b;
+    position: fixed;
+    height: 350px;
+    width: 700px;
+    margin-top: -175px;
+    margin-left: -350px;
+    top: 50%;
+    left: 50%;
+}
+
+tr, td {
+    border: 1px dashed #233072;
+}
+
+#table-header {
+    background-color: #4b95a8;
+}
+
+#main {
+    background-color: #f7bf76;
+}
+
+#accent {
+    background-color: #7adef9;
 }
