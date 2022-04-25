@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Book Data Form</title>
+    </head>
+    <body>
+        <h1>BOOK DATA FORM</h1>
+        <form id="book-data" action="#" method="post">
+            <label for="bookName">Book name: </label>
+            <input name="bookName" id="bookName" type="text" required placeholder="Book name"><br>
+            <label for="author">Author name: </label>
+            <input name="author" id="author" type="text" required placeholder="Author name"><br>
+            <label for="publishYear">Year of publish: </label>
+            <input name="publishYear" id="publishYear" type="number" required placeholder="Year of publish"><br>
+            <label for="isbn">ISBN: </label>
+            <input name="isbn" id="isbn" type="number" required placeholder="ISBN"><br>
+            <label for="price">Price: </label>
+            <input name="price" id="price" type="number" required placeholder="Price"><br>
+            <button class="btn" type="submit">Register</button>
+            <div id="msg">
+                <pre></pre>
+            </div>
+        </form>
+        <script src="book-form.js"></script>
+    </body>
+</html>
